@@ -1,0 +1,5 @@
+diabetesX=read.csv("diabetes.csv")
+A=c(diabetesX$Age)
+#View(diabetesX)
+Maximum=max(diabetesX$Age)
+print(Maximum)
