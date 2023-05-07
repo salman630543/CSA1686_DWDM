@@ -1,0 +1,5 @@
+diabetesX=read.csv("diabetes.csv")
+A=c(diabetesX$Age)
+#View(diabetesX)
+Minimum=min(diabetesX$Age)
+print(Minimum)
