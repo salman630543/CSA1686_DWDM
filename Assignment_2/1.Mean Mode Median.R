@@ -1,0 +1,8 @@
+library(modeest)
+p=c(25,23,12,11,6,7,8,9,10)
+Mean=mean(p)
+Mode=mfv(p)
+Median=median(p)
+cat("Mean= ",Mean,"\n")
+cat("Median= ",Median,"\n")
+cat("Mode= ",Mode)
